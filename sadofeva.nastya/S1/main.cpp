@@ -2,7 +2,7 @@
 #include <string>
 #include "task.hpp"
 #include "iolists.hpp"
-
+#
 int main()
 {
   sadofeva::input_list_t input_list = sadofeva::inputValues(std::cin);
