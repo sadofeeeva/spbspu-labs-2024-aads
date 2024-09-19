@@ -1,17 +1,13 @@
 #include "split.hpp"
-<<<<<<< HEAD
-sadofeva::List< unsigned long > sadofeva::splitNumbers(const std::string & str)
-=======
 #include <cctype>
 
 sadofeva::List< unsigned long> sadofeva::splitNumbers(const std::string & str)
->>>>>>> parent of 10f28ac (fx)
 {
   if (str.empty())
   {
     return {};
   }
-  sadofeva::List< unsigned long > values;
+  sadofeva::List<unsigned long > values;
   std::string str_value = "";
   auto iter = str.begin();
   while (iter!= str.end())
@@ -38,3 +34,4 @@ sadofeva::List< unsigned long> sadofeva::splitNumbers(const std::string & str)
   }
   return values;
 }
+

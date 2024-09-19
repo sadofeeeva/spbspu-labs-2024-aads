@@ -53,3 +53,4 @@ void sadofeva::printNumberList(const numbers_list_t & list, std::ostream & out)
     out << value;
   }
 }
+
